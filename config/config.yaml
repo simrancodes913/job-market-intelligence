@@ -1,0 +1,17 @@
+scraping:
+  job_url: "https://www.naukri.com/jobs-in-india?clusters=functionalAreaGid&functionAreaIdGid=5&functionAreaIdGid=11&functionAreaIdGid=14"
+  pages: 10
+  delay: 2
+
+  selectors:
+    job_card: ""
+    job_title: ""
+    company: ""
+    experience: ""
+    location: ""
+    salary: ""
+    description: ""
+    skills: ""
+
+output:
+  raw_data: "data/raw/jobs.csv"
